@@ -16,7 +16,7 @@
 				<a sveltekit:prefetch href="/">About</a>
 			</li>
 			<li class:active={$page.url.pathname === '/nfts'}>
-				<a sveltekit:prefetch href="/">NFTs</a>
+				<a sveltekit:prefetch href="https://looksrare.org/collections/0x9831F71ed9E5015e62D3412716ffb8aae122eF2a" target="_blank">NFTs</a>
 			</li>
 		</ul>
 	</nav>

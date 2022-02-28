@@ -8,14 +8,60 @@
 </svelte:head>
 
 <section>
-	<div class="welcome">
-		<p>Build Mahjong Games</p>
-		<p>In The Metaverse</p>
+	<div class="left-content">
+		<div class="welcome">
+			<p>Build Mahjong Games</p>
+			<p>In The Metaverse</p>
+		</div>
+
+		<div class="tokenomics">
+			<h2><a href="https://tinted-crayon-ea1.notion.site/Mahjong-DAO-TOKENOMICS-1bff29f1e6e942e2afba7c9600e860ce" target="_blank">NFTs TOKENOMICS</a></h2>
+			<p><b>Total Supply</b>: 148 Mahjong tile NFTs</p>
+			<p><b>DAO Members</b>: who owns mahjong tile NFTs</p>
+			<p><b>DAO Workgroup</b>: who owns 🀢🀣🀤🀥🀦🀧🀨🀩 NFTs</p>
+			<p><b>DAO Treasury</b>: 20% sales revenue</p>
+			<p><b>$MAHJ Liquidity</b>: 80% sales revenue</p>
+		</div>
+		<div class="tokenomics">
+			<h2><a href="https://tinted-crayon-ea1.notion.site/Mahjong-DAO-TOKENOMICS-1bff29f1e6e942e2afba7c9600e860ce" target="_blank">$MAHJ TOKENOMICS</a></h2>
+			<p><b>Total Supply</b>: 21,000,000,000</p>
+			<p><b>Liquidity Pool</b>: 40% of total supply</p>
+			<p><b>Stake Rewards</b>: 30% of total supply</p>
+			<p><b>DAO Treasury</b>: 20% of total supply</p>
+			<p><b>Workgroup Rewards</b>: 10% of total supply</p>
+		</div>
+
+		<div class="welcome"></div>
 	</div>
 
-	<picture>
+	<picture class="right-content">
 		<img src={backgroud} alt="Mahjong Games" />
 	</picture>
+</section>
+
+<section class="roadmap">
+	<h2>Road Map</h2>
+	<div>
+		<h3>2022 Q1</h3>
+		<p>Contract deployed<i class="icon-check">✔</i></p>
+		<p>03-08 NFTs listing on <a href="https://looksrare.org/collections/0x9831F71ed9E5015e62D3412716ffb8aae122eF2a">LooksRare</a></p>
+		<p>03-15 NFTs public sales</p>
+	</div>
+	<div>
+		<h3>2022 Q2</h3>
+		<p>Bridge to the Avalanche</p>
+		<p>05-02 $MAHJ listing on <a href="https://traderjoexyz.com/trade">Trader Joe</a></p>
+		<p>NFTs and $MAHJ staking</p>
+		<p>Listing Coingecko / CoinMarketCap</p>
+	</div>
+	<div>
+		<h3>2022 Q3</h3>
+		<p>Launching mahjong DAO surrounding souvenirs</p>
+	</div>
+	<div>
+		<h3>2022 Q4</h3>
+		<p>Launching a sub DAO & mahjong game</p>
+	</div>
 </section>
 
 <style>
@@ -25,23 +71,36 @@
 		justify-content: space-between;
 		align-items: stretch;
 		flex: 1;
+		width: 100%;
 	}
 
-	.welcome {
+	.left-content {
 		display: flex;
 		flex-flow: wrap;
     flex-direction: column;
 		align-items: flex-start;
-    justify-content: center;
+    justify-content: space-evenly;
 	}
 
 	.welcome p {
 		margin: 0;
-		font-size: 3em;
+		font-size: 2em;
 		font-weight: bolder;
 	}
 
-	picture {
+	.tokenomics h2 {
+		margin: 1em 0 0 0;
+		font-size: 1.5em;
+		font-weight: bolder;
+	}
+
+	.roadmap p,
+	.tokenomics p {
+		margin: 0.5em 0 0 0;
+		font-size: 1em;
+	}
+
+	picture.right-content {
 		display: flex;
 		flex-flow: wrap;
 		align-items: center;
@@ -49,10 +108,37 @@
 		height: 720px;
 	}
 
-	picture img {
+	picture.right-content img {
 		height: 100%;
 		top: 0;
 		display: block;
+	}
+
+	.roadmap {
+		flex-wrap: wrap;
+		margin: 1em auto 0;
+		border-top: 1px solid var(--weak-white-color);
+	}
+
+	.roadmap h2 {
+		width: 100%;
+		font-size: 1.5em;
+		margin: 0.5em auto 0;
+	}
+
+	.roadmap div {
+		width: 50%;
+	}
+
+	.roadmap h3 {
+		font-size: 1em;
+		color: var(--primary-color);
+		margin: 2em auto 0;
+	}
+
+	.icon-check {
+		color: red;
+		padding-left: 1em;
 	}
 
 	@media (max-width: 600px) {
@@ -61,19 +147,18 @@
 			justify-content: flex-start;
 		}
 
-		picture {
+		picture.right-content {
 			height: 600px;
 			justify-content: center;
-		}
-
-		.welcome {
-			margin: 1em auto;
-			justify-content: center;
+			margin-top: 1em;
 		}
 
 		.welcome p {
-			font-size: 2em;
 			font-weight: normal;
+		}
+
+		.roadmap div {
+			width: 100%;
 		}
 	}
 </style>
