@@ -13,7 +13,9 @@
 </main>
 
 <footer>
-	<div>
+	<div class="info">
+		<p>Ethereum: <span>0x9831F71ed9E5015e62D3412716ffb8aae122eF2a</span></p>
+		<p>Avalanche: <span>0x9A5Ad0875820e31f65F4A42dBb335777F522A2Aa</span></p>
 		<p>© 2022 Mahjong Dao, All Rights Reserved.</p>
 	</div>
 	<nav>
@@ -57,6 +59,18 @@
 		border-top: 1px solid var(--weak-white-color);
 	}
 
+	.info {
+		padding: 1em 0;
+	}
+
+	.info span {
+		color: var(--primary-color);
+		transition: color 0.5s linear;
+	}
+	.info span:hover {
+		color: var(--pure-white);
+	}
+
 	ul {
 		position: relative;
 		padding: 1em 0;
@@ -75,8 +89,9 @@
 
 	footer p {
 		color: var(--secondary-color);
-		font-size: 0.9em;
+		font-size: 0.5em;
 		text-decoration: none;
+		margin: 0;
 	}
 
 	li img {

@@ -5,22 +5,23 @@
 		Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	--font-mono: 'Fira Mono', monospace;
 	--pure-white: #ffffff;
-	--pure-black: #000000;
+	--pure-black: #000008;
 	--pure-purple: #6732ff;
-	--primary-color: rgba(255, 255, 255, 0.9);
-	--secondary-color: rgba(255, 255, 255, 0.7);
-	--tertiary-color: rgba(255, 255, 255, 0.5);
-	--weak-white-color: rgba(255, 255, 255, 0.3);
+	--primary-color: rgba(255, 255, 255, 0.8);
+	--secondary-color: rgba(255, 255, 255, 0.6);
+	--tertiary-color: rgba(255, 255, 255, 0.4);
+	--weak-white-color: rgba(255, 255, 255, 0.2);
+	--weak-black-color: rgba(55, 55, 55, 0.4);
 	--column-width: 42rem;
 	--column-margin-top: 4rem;
 }
 
 body {
-	max-width: 1080px;
+	max-width: 800px;
 	max-height: 1280px;
 	height: 100vh;
-	margin: auto;
-	padding: 1em 4em;
+	margin: 0 auto;
+	padding: 1em;
 	background-color: var(--pure-black);
 }
 
@@ -51,6 +52,10 @@ h2,
 p {
 	font-weight: 400;
 	color: var(--primary-color);
+	transition: color 0.5s linear;
+}
+p:hover {
+	color: var(--pure-white);
 }
 
 p {
@@ -59,11 +64,14 @@ p {
 
 a {
 	color: var(--primary-color);
-	text-decoration: none;
+	text-decoration: underline;
+	text-underline-offset: 3px;
+	transition: color 0.5s linear;
 }
 
 a:hover {
-	text-decoration: underline;
+	color: var(--pure-white);
+	text-shadow: 1px 1px 2px #888888;
 }
 
 h1 {
@@ -78,7 +86,7 @@ h2 {
 pre {
 	font-size: 16px;
 	font-family: var(--font-mono);
-	background-color: rgba(255, 255, 255, 0.45);
+	background-color: rgba(255, 255, 255, 0.4);
 	border-radius: 3px;
 	box-shadow: 2px 2px 6px rgb(255 255 255 / 25%);
 	padding: 0.5em;
@@ -94,10 +102,4 @@ button {
 
 button:focus:not(:focus-visible) {
 	outline: none;
-}
-
-@media (max-width: 800px) {
-	body {
-		padding: 1em 10px;
-	}
 }

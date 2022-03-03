@@ -75,12 +75,6 @@
 		font-weight: 700;
 		font-size: 1.2rem;
 		letter-spacing: 0.05em;
-		text-decoration: none;
-		transition: color 0.2s linear;
-	}
-
-	a:hover {
-		color: var(--pure-white);
 	}
 
 	@media (max-width: 800px) {

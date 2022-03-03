@@ -43,16 +43,16 @@
 	<h2>Road Map</h2>
 	<div>
 		<h3>2022 Q1</h3>
-		<p>Contract deployed<i class="icon-check">✔</i></p>
-		<p>03-08 NFTs listing on <a href="https://looksrare.org/collections/0x9831F71ed9E5015e62D3412716ffb8aae122eF2a">LooksRare</a></p>
+		<p><a href="https://etherscan.io/address/0x9831F71ed9E5015e62D3412716ffb8aae122eF2a" target="_blank">Contract deployed</a><i class="icon-check">✔</i></p>
+		<p>03-08 NFTs listing on <a href="https://looksrare.org/collections/0x9831F71ed9E5015e62D3412716ffb8aae122eF2a" target="_blank">LooksRare</a></p>
 		<p>03-15 NFTs public sales</p>
 	</div>
 	<div>
 		<h3>2022 Q2</h3>
-		<p>Bridge to the Avalanche</p>
-		<p>05-02 $MAHJ listing on <a href="https://traderjoexyz.com/trade">Trader Joe</a></p>
+		<p>Bridging to <a href="https://snowtrace.io/address/0x9A5Ad0875820e31f65F4A42dBb335777F522A2Aa" target="_blank">Avalanche</a></p>
+		<p>05-02 $MAHJ listing on <a href="https://traderjoexyz.com/trade" target="_blank">Trader Joe</a></p>
 		<p>NFTs and $MAHJ staking</p>
-		<p>Listing Coingecko / CoinMarketCap</p>
+		<p>Listing on Coingecko / CoinMarketCap</p>
 	</div>
 	<div>
 		<h3>2022 Q3</h3>
@@ -60,7 +60,7 @@
 	</div>
 	<div>
 		<h3>2022 Q4</h3>
-		<p>Launching a sub DAO & mahjong game</p>
+		<p>Launching a Sub DAO & mahjong game</p>
 	</div>
 </section>
 
@@ -82,14 +82,27 @@
     justify-content: space-evenly;
 	}
 
+	.welcome {
+		width: 100%;
+	}
+
 	.welcome p {
 		margin: 0;
 		font-size: 2em;
 		font-weight: bolder;
 	}
 
+	.tokenomics {
+		max-width: 360px;
+		width: calc(100% - 2em);
+		margin-top: 1em;
+		padding: 1em;
+    background-color: var(--weak-black-color);
+    border-radius: 0.3em;
+	}
+
 	.tokenomics h2 {
-		margin: 1em 0 0 0;
+		margin: 0;
 		font-size: 1.5em;
 		font-weight: bolder;
 	}
@@ -116,14 +129,18 @@
 
 	.roadmap {
 		flex-wrap: wrap;
-		margin: 1em auto 0;
-		border-top: 1px solid var(--weak-white-color);
+		width: calc(100% - 2em);
+		margin: 1em 0 0;
+		padding: 1em;
+    background-color: var(--weak-black-color);
+    border-radius: 0.3em;
 	}
 
 	.roadmap h2 {
 		width: 100%;
 		font-size: 1.5em;
-		margin: 0.5em auto 0;
+		font-weight: bolder;
+		margin: 0;
 	}
 
 	.roadmap div {
@@ -137,7 +154,7 @@
 	}
 
 	.icon-check {
-		color: red;
+		color: var(--pure-purple);
 		padding-left: 1em;
 	}
 
@@ -151,6 +168,10 @@
 			height: 600px;
 			justify-content: center;
 			margin-top: 1em;
+		}
+
+		.welcome {
+			text-align: center;
 		}
 
 		.welcome p {
