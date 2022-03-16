@@ -15,7 +15,7 @@
 		</div>
 
 		<div class="tokenomics">
-			<h2><a href="https://tinted-crayon-ea1.notion.site/Mahjong-DAO-TOKENOMICS-1bff29f1e6e942e2afba7c9600e860ce" target="_blank">NFTs TOKENOMICS</a></h2>
+			<h2><a href="https://omniscient-caper-005.notion.site/Mahjong-DAO-TOKENOMICS-70c658d2e6284cd7a802dfe1bb96d726" target="_blank">NFTs TOKENOMICS</a></h2>
 			<p><b>Total Supply</b>: 148 Mahjong tile NFTs</p>
 			<p><b>DAO Members</b>: who owns mahjong tile NFTs</p>
 			<p><b>DAO Workgroup</b>: who owns 🀢🀣🀤🀥🀦🀧🀨🀩 NFTs</p>
@@ -23,7 +23,7 @@
 			<p><b>$MAHJ Liquidity</b>: 80% sales revenue</p>
 		</div>
 		<div class="tokenomics">
-			<h2><a href="https://tinted-crayon-ea1.notion.site/Mahjong-DAO-TOKENOMICS-1bff29f1e6e942e2afba7c9600e860ce" target="_blank">$MAHJ TOKENOMICS</a></h2>
+			<h2>$MAHJ TOKENOMICS</h2>
 			<p><b>Total Supply</b>: 21,000,000,000</p>
 			<p><b>Liquidity Pool</b>: 40% of total supply</p>
 			<p><b>Stake Rewards</b>: 30% of total supply</p>
@@ -44,12 +44,12 @@
 	<div>
 		<h3>2022 Q1</h3>
 		<p><a href="https://etherscan.io/address/0x9831F71ed9E5015e62D3412716ffb8aae122eF2a" target="_blank">Contract deployed</a><i class="icon-check">✔</i></p>
-		<p>03-08 NFTs listing on <a href="https://looksrare.org/collections/0x9831F71ed9E5015e62D3412716ffb8aae122eF2a" target="_blank">LooksRare</a></p>
-		<p>03-15 NFTs public sales</p>
+		<p>03-08 NFTs listing on <a href="https://looksrare.org/collections/0x9831F71ed9E5015e62D3412716ffb8aae122eF2a" target="_blank">LooksRare</a><i class="icon-check">✔</i></p>
+		<p>03-15 NFTs public sales<i class="icon-check">✔</i></p>
 	</div>
 	<div>
 		<h3>2022 Q2</h3>
-		<p>Bridging to <a href="https://snowtrace.io/address/0x9A5Ad0875820e31f65F4A42dBb335777F522A2Aa" target="_blank">Avalanche</a></p>
+		<p>Bridging to <a href="https://bridge.avax.network/" target="_blank">Avalanche</a></p>
 		<p>05-02 $MAHJ listing on <a href="https://traderjoexyz.com/trade" target="_blank">Trader Joe</a></p>
 		<p>NFTs and $MAHJ staking</p>
 		<p>Listing on Coingecko / CoinMarketCap</p>
