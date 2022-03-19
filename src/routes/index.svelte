@@ -15,10 +15,10 @@
 		</div>
 
 		<div class="tokenomics">
-			<h2><a href="https://omniscient-caper-005.notion.site/Mahjong-DAO-TOKENOMICS-70c658d2e6284cd7a802dfe1bb96d726" target="_blank">NFTs TOKENOMICS</a></h2>
+			<h2><a href="https://mahj.notion.site/Mahjong-DAO-WHITEPAPER-70c658d2e6284cd7a802dfe1bb96d726" target="_blank">NFTs TOKENOMICS</a></h2>
 			<p><b>Total Supply</b>: 148 Mahjong tile NFTs</p>
 			<p><b>DAO Members</b>: who owns mahjong tile NFTs</p>
-			<p><b>DAO Workgroup</b>: who owns 🀢🀣🀤🀥🀦🀧🀨🀩 NFTs</p>
+			<p><b>DAO Team</b>: who owns 🀢🀣🀤🀥🀦🀧🀨🀩 NFTs</p>
 			<p><b>DAO Treasury</b>: 20% sales revenue</p>
 			<p><b>$MAHJ Liquidity</b>: 80% sales revenue</p>
 		</div>
